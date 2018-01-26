@@ -1,0 +1,10 @@
+server:
+  port: 60000
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/milosyuwei/cloudconfig
